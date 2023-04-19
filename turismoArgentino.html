@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="turismoArgentino.css" />
+    <title>Flexbox vs CSS Grid</title>
+  </head>
+  <body>
+
+    <div class="audio">
+      <audio autoplay loop>
+        <source src="./audio/argentinaTurismo2.mp3" type="audio/mp3">
+        <!-- <source src="./audio/argentinaTurismo3.mp3" type="audio/mp3"> -->
+      </audio>
+    </div>
+    
+    <div class="contenedor">
+      <div class="contenedor-conciertos">
+        <!-- 1 CABA -->
+        <div
+          class="card"
+          style="background-image: url('./image/caba1.jpg')"
+        >
+          <div class="textos">
+            <h3>Capital Federal</h3>
+            <p><i>CABA</i></p>
+          </div>
+        </div>
+        <!-- 2 BUENOS AIRES -->
+        <div
+          class="card"
+          style="background-image: url('./image/laplata1.jpg')"
+        >
+          <div class="textos">
+            <h3>La Plata</h3>
+            <p><i>BUENOS AIRES</i></p>
+          </div>
+        </div>
+        <!-- 3 CHACO -->
+        <div
+          class="card"
+          style="background-image: url('./image/chaco1.jpg')"
+        >
+          <div class="textos">
+            <h3>Resistencia</h3>
+            <p> <i>CHACO</i> </p>
+          </div>
+        </div>
+        <!-- 4 CORRIENTES -->
+        <div class="card" style="background-image: url('./image/corrientes1.jpg')">
+          <div class="textos">
+            <h3>Corrientes</h3>
+            <p><i>CORRIENTES</i></p>
+          </div>
+        </div>
+        <!-- 5 FORMOSA -->
+        <div
+          class="card"
+          style="background-image: url('./image/formosa1.jpg')"
+        >
+          <div class="textos">
+            <h3>Formosa</h3>
+            <p><i>FORMOSA</i></p>
+          </div>
+        </div>
+        <!-- 6 MISIONES -->
+        <div
+          class="card"
+          style="background-image: url('./image/misiones2.webp')"
+        >
+          <div class="textos">
+            <h3>Posadas</h3>
+            <p><i>MISIONES</i></p>
+          </div>
+        </div>
+
+        <!-- 7 SANTA FE -->
+        <div
+          class="card"
+          style="background-image: url('./image/rosario1.jpg')"
+        >
+          <div class="textos">
+            <h3>Rosario</h3>
+            <p><i>SANTA FE</i></p>
+          </div>
+        </div>
+        <!-- 8 ENTRE RIOS -->
+        <div
+          class="card"
+          style="background-image: url('./image/entrerios1.webp')"
+        >
+          <div class="textos">
+            <h3>Parana</h3>
+            <p><i>ENTRE RIOS</i></p>
+          </div>
+        </div>
+        <!-- 9 CORDOBA -->
+        <div class="card" style="background-image: url('./image/cordoba1.jpg')">
+          <div class="textos">
+            <h3>Cordoba</h3>
+            <p><i>CORDOBA</i></p>
+          </div>
+        </div>
+        <!-- 10 SANTIAGO DEL ESTERO   -->
+        <div class="card" style="background-image: url('./image/santiagodelestero1.jpg')">
+          <div class="textos">
+            <h3>Santiago del Estero</h3>
+            <p><i>SANTIAGO DEL ESTERO</i></p>
+          </div>
+        </div>
+        <!-- 11 JUJUY  -->
+        <div class="card" style="background-image: url('./image/jujuy1.jpg')">
+          <div class="textos">
+            <h3>San Salvador de Jujuy</h3>
+            <p><i>JUJUY</i></p>
+          </div>
+        </div>
+        <!-- 12 SALTA  -->
+        <div class="card" style="background-image: url('./image/salta1.jpeg')">
+          <div class="textos">
+            <h3>Salta</h3>
+            <p><i>SALTA</i></p>
+          </div>
+        </div>
+        <!-- 13 TUCUMAN  -->
+        <div class="card" style="background-image: url('./image/tucuman1.jpg')">
+          <div class="textos">
+            <h3>Tucumán</h3>
+            <p><i>TUCUMÁN</i></p>
+          </div>
+        </div>
+        <!-- 14 SAN FERNANDO DEL VALLE DE CATAMARCA   -->
+        <div class="card" style="background-image: url('./image/catamarca2.jpeg')">
+          <div class="textos">
+            <h3>San Fernando del Valle de Catamarca</h3>
+            <p><i>SAN FERNANDO DEL VALLE DE CATAMARCA</i></p>
+          </div>
+        </div>
+        <!-- 15 LA RIOJA  -->
+        <div class="card" style="background-image: url('./image/larioja1.jpg')">
+          <div class="textos">
+            <h3>La Rioja</h3>
+            <p><i>LA RIOJA</i></p>
+          </div>
+        </div>
+        <!-- 16 SAN JUAN  -->
+        <div class="card" style="background-image: url('./image/sanjuan1.jpg')">
+          <div class="textos">
+            <h3>San Juan</h3>
+            <p><i>SAN JUAN</i></p>
+          </div>
+        </div>
+        <!-- 17 MENDOZA  -->
+        <div class="card" style="background-image: url('./image/mendoza2.jpg')">
+          <div class="textos">
+            <h3>Mendoza</h3>
+            <p><i>MENDOZA</i></p>
+          </div>
+        </div>
+        <!-- 18 SAN LUIS  -->
+        <div class="card" style="background-image: url('./image/sanluis1.webp')">
+          <div class="textos">
+            <h3>San Luis</h3>
+            <p><i>SAN LUIS</i></p>
+          </div>
+        </div>
+        <!-- 19 LA PAMPA  -->
+        <div class="card" style="background-image: url('./image/lapampa1.webp')">
+          <div class="textos">
+            <h3>Santa Rosa</h3>
+            <p><i>LA PAMPA</i></p>
+          </div>
+        </div>
+        <!-- 20 NEUQUEN  -->
+        <div class="card" style="background-image: url('./image/neuquen2.jpg')">
+          <div class="textos">
+            <h3>Nequen</h3>
+            <p><i>NEUQUEN</i></p>
+          </div>
+        </div>
+        <!-- 21 RIO NEGRO  -->
+        <div class="card" style="background-image: url('./image/rionegro2.jpg')">
+          <div class="textos">
+            <h3>Viedma</h3>
+            <p><i>RIO NEGRO</i></p>
+          </div>
+        </div>
+        <!-- 22 CHUBUT  -->
+        <div class="card" style="background-image: url('./image/chubut2.webp')">
+          <div class="textos">
+            <h3>Rawson</h3>
+            <p><i>CHUBUT</i></p>
+          </div>
+        </div>
+        <!-- 23 SANTA CRUZ  -->
+        <div class="card" style="background-image: url('./image/santacruz2.jpg')">
+          <div class="textos">
+            <h3>Rio Gallegos</h3>
+            <p><i>SANTA CRUZ</i></p>
+          </div>
+        </div>
+        <!-- 24 TIERRA DEL FUEGO  -->
+        <div class="card" style="background-image: url('./image/tierradelfuego3.jpg')">
+          <div class="textos">
+            <h3>Ushuaia</h3>
+            <p><i>TIERRA DEL FUEGO</i></p>
+          </div>
+        </div>
+      </div>
+      <div class="banner" style="background-image: url('./img/banner.jpg')">
+        <h3>ARGENTINA<br><br>24 secretos naturales</h3>
+        <ul>
+          <li> <a href="https://es.wikipedia.org/wiki/Buenos_Aires">Capital Federal</a></li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Buenos_Aires">Buenos Aires</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_del_Chaco">Chaco</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Corrientes">Corrientes</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Formosa_(ciudad)">Formosa</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Misiones">Misiones</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Santa_Fe">Santa Fe</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Entre_Ríos">Entre Rios</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Córdoba_(Argentina)">Cordoba</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Santiago_del_Estero">Santiago del Estero</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Jujuy">Jujuy</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Salta">Salta</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Tucumán">Tucumán</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Catamarca">Catamarca</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/La_Rioja_(Argentina)">La Rioja</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_San_Juan">San Juan</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Mendoza">Mendoza</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_San_Luis">San Luis</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_La_Pampa">La Pampa</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_del_Neuquén">Neuquen</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Río_Negro">Rio Negro</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_del_Chubut">Chubut</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Santa_Cruz">Santa Cruz</a> </li>
+          <li> <a href="https://es.wikipedia.org/wiki/Provincia_de_Tierra_del_Fuego,_Antártida_e_Islas_del_Atlántico_Sur">Tierra del Fuego</a> </li>
+        </ul>
+        <button class="boton">Vuelos Directos</button>
+      </div>
+    </div>
+  </body>
+</html>

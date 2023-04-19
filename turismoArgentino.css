@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  /* border: 1px solid white; */
+}
+
+/* ============================= */
+/* =========== BODY ============ */
+/* ============================= */
+
+body {
+  background: #1d202b;
+  color: #fff;
+}
+
+/* ============================= */
+/* ====== TARJETAS CAJAS ======= */
+/* ============================= */
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+
+  /* Flexbox */
+  /* display: f
+	/* Flexboxlex; */
+  /* gap: 20px; */
+
+  /* Grid */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.contenedor-conciertos {
+  /* Flexbox */
+  /* width: 70%; */
+
+  /* display: flex;	 */
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+
+  /* Grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.contenedor-conciertos .card:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 2px 2px 15px 3px #fff;
+  border: 1px solid #fff;
+
+  -webkit-transition: all 0.5s ease; /* Safari y Chrome */
+  width: 100%;
+  transform: scale(1.1);
+}
+
+/* ============================= */
+/* ======= TARJETAS TEXTO ====== */
+/* ============================= */
+
+.card {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+
+  /* Flexbox */
+  /* width: calc(33.33% - 20px); */
+}
+
+.card .textos {
+  height: 100%;
+  color: #ffd600;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* Grid */
+  /* display: grid;
+	grid-template-rows: 1fr auto; */
+}
+
+/* ============================= */
+/* ======= BANNER DERECHO ====== */
+/* ============================= */
+
+.banner {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* Grid */
+  /* display: grid;
+	grid-template-rows: auto auto auto;
+	align-items: center; */
+}
+
+.banner ul {
+  list-style: none;
+}
+
+.banner ul li {
+  margin: 15px;
+  font-weight: bold;
+}
+
+.banner ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.banner ul li a:hover {
+	color: #ffd600;
+	text-decoration: underline #ffd600;
+	cursor: pointer;
+}
+
+.banner h3 {
+	font-size: 40px;
+}
+
+.banner .boton {
+  background: #ffd600;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.banner .boton:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	box-shadow: 1px 1px 5px 4px #ffd600;
+	border: 1.2px solid #fff;
+}
+
+
+/* ============================= */
+/* ========= RESPONSIVE ======== */
+/* ============================= */
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 600px) {
+}
